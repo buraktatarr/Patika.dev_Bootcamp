@@ -6,7 +6,7 @@ public class ArithmeticOperations_OperationPriority {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // Öncelikle bir scanner yazıyoruz.
 
-        System.out.println("Sizden 3 adet sayı girmenizi istiyorum:");
+        System.out.println("Sizden 3 adet sayı girmenizi istiyorum:"); // Kullanıcı için bir ön bilgi veriyorum.
 
         System.out.println(" A sayısını giriniz: "); // A sayısını kullanıcıdan alıyoruz.
         int a = scanner.nextInt();
