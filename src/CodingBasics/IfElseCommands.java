@@ -19,5 +19,22 @@ public class IfElseCommands {
         } else {
             System.out.println("sayı 5'ten büyük değil");
         }
-    }
+
+        int not = 85;
+        String harfnotu;
+        
+        if(not > 85){
+            harfnotu = "A";
+            
+        } else if (not >= 70) {
+            harfnotu = "B";
+            
+        } else if (not >= 60) {
+            harfnotu = "C";
+            
+        } else {
+            harfnotu = "D";
+        }
+        System.out.println(harfnotu);
+    }   
 }
