@@ -18,13 +18,12 @@ public class TypeConversions {
         // Tam sayıyı ondalıklı sayıya dönüştürüyorum;
         double tamSayiDouble = (double) tamSayi;
 
-        // Ondalıklı sayıyı tam sayıya dönüştürüyorum; (yuvarlama ile)
-        // Burada Math.round kullanmamın sebebi, xx,yy sayısının 50 altındayken x'e, 50 üstüyken x + 1'e dönüşmesi için.
-        int yuvarlanmisSayi = (int) Math.round(ondalikliSayi);
+        // Ondalıklı sayıyı tam sayıya dönüştürüyorum;
+        int ondalikliSayiInt = (int) ondalikliSayi;
 
         // Sonuçları ekrana yazdırıyorum;
         System.out.println("Tam sayının ondalıklı hale dönüştürülmüş hali: " + tamSayiDouble);
-        System.out.println("Ondalıklı sayının tam sayıya yuvarlanmış hali: " + yuvarlanmisSayi);
+        System.out.println("Ondalıklı sayının tam sayıya dönüştürülmüş hali: " + ondalikliSayiInt);
 
         // En başta açtığımız scanner nesnesini kapatmak gerekli;
         scanner.close();
